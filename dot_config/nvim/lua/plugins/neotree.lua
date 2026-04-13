@@ -84,7 +84,7 @@ return {
 		},
 		filesystem = {
 			follow_current_file = true,
-			hijack_netrw_behavior = "open_current",
+			hijack_netrw_behavior = "open_default",
 			filtered_items = {
 				visible = false, -- Keep hidden files visible if needed
 				hide_dotfiles = false, -- Set to true to hide dotfiles

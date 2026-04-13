@@ -86,8 +86,8 @@ vim.api.nvim_create_autocmd("BufEnter", {
 -- 3.3 Открытие Neotree (или другого дерева) при старте
 -- Примечание: Если ты открываешь конкретный файл (nvim file.txt), дерево может перекрыть его.
 -- Позже мы можем настроить это умнее, если потребуется.
-vim.api.nvim_create_autocmd("VimEnter", {
-	group = vim.api.nvim_create_augroup("OpenExplorer", { clear = true }),
-	desc = "Открыть файловое дерево при запуске Neovim",
-	command = "Neotree toggle",
-})
+-- vim.api.nvim_create_autocmd("VimEnter", {
+-- 	group = vim.api.nvim_create_augroup("OpenExplorer", { clear = true }),
+-- 	desc = "Открыть файловое дерево при запуске Neovim",
+-- 	command = "Neotree toggle",
+-- })
